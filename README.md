@@ -30,7 +30,7 @@ Whether you mainly play Roblox or you’re also into Linux, the goal is the same
 **Just starting**
 
 - Repo created
-- Packaging work and first packages coming soon
+- Initial EL9 and EL10 repositories published
 - Themes, configs, and Forsaken-related extras planned
 
 ## Repository Structure
@@ -41,28 +41,43 @@ Whether you mainly play Roblox or you’re also into Linux, the goal is the same
 ├── SOURCES/                # Sources, patches, assets
 ├── keys/                   # GPG keys
 ├── repo/                   # .repo files and metadata
-|── el9/                    # EL9 Repos
-|── el10/                   # EL10 Repos
+|── el9/                    # EL9 RPMs, repo config, and metadata
+|── el10/                   # EL10 RPMs, repo config, and metadata
 └── README.md
 
 ```
 
 ## Adding the Repository
 
-Once packages are published:
+Use the instructions for your Enterprise Linux major version. The EL9 and EL10 repository files and signing keys are stored separately; install only the configuration that matches your system.
+
+### EL9 (AlmaLinux 9, Rocky Linux 9, and compatible systems)
 
 ```bash
-# Add the repo
-sudo curl -o /etc/yum.repos.d/milestone4twotime.repo \
-  https://raw.githubusercontent.com/AmarahForsakenRBLX/elderamarah-rhel-repos/main/repo/milestone4twotime.repo
+sudo curl -fL -o /etc/yum.repos.d/milestone4twotime-el9.repo \
+  https://raw.githubusercontent.com/AmarahForsakenRBLX/elderamarah-rhel-repos/main/el9/milestone4twotime-el9.repo
 
-# Import the key (when available)
-sudo rpm --import https://raw.githubusercontent.com/AmarahForsakenRBLX/elderamarah-rhel-repos/main/keys/RPM-GPG-KEY-milestone4twotime
+sudo rpm --import \
+  https://raw.githubusercontent.com/AmarahForsakenRBLX/elderamarah-rhel-repos/main/el9/RPM-GPG-KEY-milestone4twotime
 
-sudo dnf clean all && sudo dnf makecache
+sudo dnf clean all
+sudo dnf makecache
 ```
 
-Then install normally:
+### EL10 (AlmaLinux 10, Rocky Linux 10, and compatible systems)
+
+```bash
+sudo curl -fL -o /etc/yum.repos.d/milestone4twotime-el10.repo \
+  https://raw.githubusercontent.com/AmarahForsakenRBLX/elderamarah-rhel-repos/main/el10/milestone4twotime-el10.repo
+
+sudo rpm --import \
+  https://raw.githubusercontent.com/AmarahForsakenRBLX/elderamarah-rhel-repos/main/el10/RPM-GPG-KEY-milestone4twotime
+
+sudo dnf clean all
+sudo dnf makecache
+```
+
+After adding the matching repository, install a package with:
 
 ```bash
 sudo dnf install <package-name>
