@@ -1,4 +1,7 @@
 # elderamarah-rhel-repos
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Repository for Milestone4TwoTime Linux**  
 *(Enterprise Linux based — for Forsaken players and the fandom)*
@@ -121,3 +124,25 @@ Even small things (wallpapers, configs, scripts) are useful.
 *The Spawn does not forgive. It rebirths.*
 
 *For Two Time. For the fandom. For something that doesn’t break.*
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/en/reference/emoji-key/)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TwoTimeMilestone4"><img src="https://avatars.githubusercontent.com/u/142646599?v=4&size=100" width="100px" height="100px" alt="꥟ TwoTimeMS4 ꥟ #2TME"/><br /><sub><b>꥟ TwoTimeMS4 ꥟ #2TME</b></sub></a><br /><a href="https://github.com/AmarahForsakenRBLX/elderamarah-rhel-repos/commits?author=TwoTimeMilestone4" title="Code">💻</a> <a href="https://github.com/AmarahForsakenRBLX/elderamarah-rhel-repos/commits?author=TwoTimeMilestone4" title="Tests">⚠️</a> <a href="https://github.com/AmarahForsakenRBLX/elderamarah-rhel-repos/pulls?q=is%3Apr+reviewed-by%3ATwoTimeMilestone4" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
