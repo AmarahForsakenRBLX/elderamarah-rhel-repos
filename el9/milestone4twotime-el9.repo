@@ -1,6 +1,6 @@
 [milestone4twotime-el9]
 name=Elder Amarah - Milestone4TwoTime Linux (EL9)
-baseurl=https://amarahforsakenrblx.github.io/elderamarah-rhel-repos/el9/milestone4twotime-el9.repo
+baseurl=https://amarahforsakenrblx.github.io/elderamarah-rhel-repos/el9/
 enabled=1
 gpgcheck=1
 repo_gpgcheck=1
