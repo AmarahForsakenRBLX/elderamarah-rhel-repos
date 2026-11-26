@@ -1,5 +1,10 @@
 # elderamarah-rhel-repos
 
+> [!WARNING]
+> **Fan-made project notice:** Milestone4TwoTime Linux and `elderamarah-rhel-repos` are unofficial fan projects, not affiliated with or endorsed by Roblox, *Forsaken*, or their developers. Elder Amarah, Two Time, Azure, the Spawn cult lore, and the Family Home for the Reborn are fictional roleplay themes—not real cult or religious beliefs. The maintainer is not a Spawnist; this is roleplay and a Linux hobby only.
+>
+> The custom `kernel-milestone4twotime` and EL9/EL10 RPM packages are signed with this project's GPG key, but use them at your own risk. Back up your system before installation and do not use this repository for production systems.
+
 **Repository for Milestone4TwoTime Linux**  
 *(Enterprise Linux based — for Forsaken players and the fandom)*
 
